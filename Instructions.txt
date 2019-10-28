@@ -1,0 +1,29 @@
+How many weapons that you chose correctly from the rack, 
+    regardless of whether it was used against the correct gladiator 
+    (i.e. it might be used against another gladiator)
+How many weapons were used against the correct gladiator
+
+An observant soldier can use this information wisely, 
+    and will quickly be able to determine the correct attack sequence.
+
+A sample attack sequence will look like this: [3,2,5,0]
+NOTE: actually two lists [3,2,5,0] and [0,1,2,3] because the postion counts as a second list 
+
+
+Which means that you will attack 
+gladiator #1 with weapon #3, 
+gladiator #2 with weapon #2, 
+gladiator #3 with weapon #5, 
+gladiator #4 with weapon #0.
+
+After each attack attempt, I will respond by telling you 
+how many weapons you chose correctly, and 
+how many weapons you used against the correct gladiator.
+
+Each response will look like this: [2,1]
+
+Which means that 
+two weapons were chosen correctly from the rack, but that 
+only one weapon was used against the correct gladiator.
+
+{“numGladiators”: 4, “numGuesses”: 8, “numRounds”: 1, “numWeapons”: 6}
